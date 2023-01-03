@@ -1,0 +1,64 @@
+.selectedBox {
+    -fx-background-color: #a4cffa;
+}
+
+.validInputBox {
+    -fx-background-color: #b4ea8a;
+}
+
+.relevantBox {
+    -fx-background-color: #cecece;
+}
+
+.invalidInputBox {
+    -fx-background-color: #ffbeb4;
+    -fx-text-fill: rgb(79, 0, 0);
+}
+
+.conflictingBox {
+    -fx-background-color: #ffbeb4;
+}
+
+.editableBox {
+    -fx-text-fill: #001cd0;
+}
+
+.rightBorder {
+    -fx-border-style: hidden solid none none;
+    -fx-border-width: 2px;
+}
+
+.topBorder {
+    -fx-border-style: solid none none none;
+    -fx-border-width: 2px;
+}
+
+.leftBorder {
+    -fx-border-style: hidden none none solid;
+    -fx-border-width: 2px;
+}
+
+.bottomBorder {
+    -fx-border-style: hidden none solid none;
+    -fx-border-width: 2px;
+}
+
+.topLeftBorder {
+    -fx-border-style: solid none none solid;
+    -fx-border-width: 2px;
+}
+
+.topRightBorder {
+    -fx-border-style: solid solid none none;
+    -fx-border-width: 2px;
+}
+
+.bottomLeftBorder {
+    -fx-border-style: hidden none solid solid;
+    -fx-border-width: 2px;
+}
+
+.bottomRightBorder {
+    -fx-border-style: hidden solid solid none;
+    -fx-border-width: 2px;
+}
